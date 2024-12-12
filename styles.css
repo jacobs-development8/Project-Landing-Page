@@ -9,7 +9,7 @@ nav {
     width: 100%;
     min-height: 10vh;
     background-color: #1F2937;
-    color: #FFFFFF;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,10 +22,40 @@ nav ul {
 }
 
 nav p {
+    font-size: 24px;
     font-weight: 500;
 }
 
 nav li {
     font-weight: 100;
+    font-size: 18px;
+    color: #E5E7EB;
     margin-right: 10px;
+}
+
+.section-cont {
+    width: 100%;
+    min-height: 75vh;
+    background-color: #1F2937;
+}
+
+.section-cont h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.section-cont p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-cont button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 7px;
 }
