@@ -122,11 +122,46 @@ nav li {
     height: 170px;
     border: 5px solid #3882f6;
     border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .img-card p {
     margin-top: 10px;
     text-align: center;
     font-size: 18px;
-    color: #E5E7EB;
+    color:#1F2937;
+}
+
+.section-three {
+    width: 100%;
+    min-height: 75vh;
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three-cont {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qoute {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: auto;
 }
