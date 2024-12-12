@@ -208,3 +208,15 @@ nav li {
     border-radius: 7px;
     margin-bottom: 20px;
 }
+
+footer {
+    width: 100%;
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 300;
+}
