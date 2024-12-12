@@ -37,17 +37,22 @@ nav li {
     width: 100%;
     min-height: 75vh;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 
 .section-cont h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 20px;
 }
 
 .section-cont p {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 20px;
 }
 
 .section-cont button {
@@ -58,4 +63,27 @@ nav li {
     padding: 10px 30px;
     border: none;
     border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.section-item-cont {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-one-right-div {
+    width: 45%;
+    margin-right: 20px;
+}
+
+.section-one-right-div {
+    width: 45%;
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 18px;
+    margin-left: 20px;
 }
