@@ -1,6 +1,31 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    min-height: 10vh;
+    background-color: #1F2937;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav p {
+    font-weight: 500;
+}
+
+nav li {
+    font-weight: 100;
+    margin-right: 10px;
 }
